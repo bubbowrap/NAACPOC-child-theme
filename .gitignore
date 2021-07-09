@@ -1,0 +1,71 @@
+#--------------------------
+#  Global gitignore items
+#--------------------------
+
+# OSX
+*.DS_Store
+.DS_Store
+.DS_Store?
+._.DS_Store
+
+# SASS
+/.sass-cache
+.sass-cache*
+config.codekit
+*codekit-config.json
+*.map
+
+# Editors
+*.sw*
+.sw*
+subl
+._*
+*._*
+.subl
+*.subl
+._.*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+*[Tt]humbs.db
+*.Trashes
+.vscode
+*.vscode
+
+# Vagrant
+.vagrant
+VagrantFile
+vagrant/
+
+# Composer
+vendor/
+composer.json-e
+composer.json
+
+# Node
+node_modules
+npm-debug.log
+bower_components/
+.idea/
+
+# logs
+*.log
+error_log
+access_log
+
+# Cache
+cache/*
+/.cache
+
+# DB
+*.sql
+
+# Uploads Zip
+*.tgz
+*.gz
+
+
+
+#---------------------------------
+#  Site Specific Files Go Here
+#---------------------------------
