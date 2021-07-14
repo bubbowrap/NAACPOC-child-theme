@@ -26,9 +26,9 @@ function be_gutenberg_components() {
 
 	wp_enqueue_style(
 		'be-editor-css',
-		get_stylesheet_directory_uri() . '/assets/css/editor.css',
+		get_stylesheet_directory_uri() . '/style.css',
 		null,
-		filemtime( get_stylesheet_directory() . '/assets/css/editor.css' )
+		filemtime( get_stylesheet_directory() . '/style.css' )
 	);
 }
 
