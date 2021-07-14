@@ -1,0 +1,89 @@
+a:4:{s:8:"template";s:4:"neve";s:4:"mods";a:57:{s:24:"neve_migrated_hfg_colors";b:1;s:18:"custom_css_post_id";i:88;i:0;b:0;s:18:"nav_menu_locations";a:1:{s:7:"primary";i:5;}s:13:"ti_prev_theme";s:15:"twentytwentyone";s:11:"custom_logo";i:99;s:12:"logo_display";s:9:"logoTitle";s:17:"logo_show_tagline";i:0;s:15:"logo_show_title";i:0;s:17:"logo_disable_link";i:0;s:28:"neve_default_container_style";s:9:"contained";s:27:"neve_sitewide_content_width";i:70;s:28:"neve_advanced_layout_options";b:1;s:32:"neve_blog_archive_sidebar_layout";s:10:"full-width";s:20:"neve_container_width";s:42:"{"mobile":748,"tablet":992,"desktop":1312}";s:27:"neve_default_sidebar_layout";s:10:"full-width";s:31:"neve_other_pages_sidebar_layout";s:10:"full-width";s:30:"neve_other_pages_content_width";i:100;s:29:"primary-menu_expand_dropdowns";i:1;s:17:"hfg_header_layout";s:584:"{"desktop":{"top":[{"x":7,"y":1,"width":4,"height":1,"id":"header_search"},{"x":11,"y":1,"width":1,"height":1,"id":"custom_html"}],"main":[{"x":0,"y":1,"width":3,"height":1,"id":"logo"},{"x":3,"y":1,"width":7,"height":1,"id":"primary-menu"},{"x":10,"y":1,"width":2,"height":1,"id":"button_base"}],"bottom":[]},"mobile":{"top":[],"main":[{"x":0,"y":1,"width":7,"height":1,"id":"logo"},{"x":8,"y":1,"width":2,"height":1,"id":"header_search_responsive"},{"x":10,"y":1,"width":2,"height":1,"id":"nav-icon"}],"bottom":[],"sidebar":[{"x":0,"y":1,"width":8,"height":1,"id":"primary-menu"}]}}";s:24:"button_base_text_setting";s:8:"Join Now";s:25:"button_base_style_setting";a:7:{s:12:"borderRadius";a:4:{s:3:"top";s:1:"0";s:5:"right";s:1:"0";s:6:"bottom";s:1:"0";s:4:"left";s:1:"0";}s:11:"borderWidth";a:4:{s:3:"top";i:1;s:5:"right";i:1;s:6:"bottom";i:1;s:4:"left";i:1;}s:4:"type";s:4:"fill";s:10:"background";s:13:"var(--nv-c-1)";s:4:"text";s:17:"var(--nv-dark-bg)";s:15:"backgroundHover";s:13:"var(--nv-c-1)";s:9:"textHover";s:17:"var(--nv-dark-bg)";}s:30:"header_search_field_background";s:26:"var(--nv-secondary-accent)";s:32:"hfg_header_layout_top_background";a:8:{s:4:"type";s:5:"color";s:8:"imageUrl";s:0:"";s:10:"focusPoint";a:2:{s:1:"x";d:0.5;s:1:"y";d:0.5;}s:10:"colorValue";s:17:"var(--nv-dark-bg)";s:17:"overlayColorValue";s:0:"";s:14:"overlayOpacity";i:50;s:5:"fixed";b:0;s:11:"useFeatured";b:0;}s:26:"header_search_field_height";s:38:"{"mobile":40,"tablet":40,"desktop":32}";s:28:"hfg_header_layout_top_height";s:36:"{"mobile":0,"tablet":0,"desktop":56}";s:19:"custom_html_content";s:49:"<a href="#" class="button button-link">Donate</a>";s:27:"custom_html_component_align";a:3:{s:7:"desktop";s:5:"right";s:6:"tablet";s:4:"left";s:6:"mobile";s:4:"left";}s:28:"hfg_header_layout_top_layout";s:21:"layout-full-contained";s:18:"primary-menu_style";s:19:"style-border-bottom";s:29:"custom_html_component_padding";a:6:{s:6:"mobile";a:4:{s:3:"top";i:0;s:5:"right";i:0;s:6:"bottom";i:0;s:4:"left";i:0;}s:6:"tablet";a:4:{s:3:"top";i:0;s:5:"right";i:0;s:6:"bottom";i:0;s:4:"left";i:0;}s:7:"desktop";a:4:{s:3:"top";s:1:"0";s:5:"right";i:0;s:6:"bottom";s:1:"0";s:4:"left";s:1:"0";}s:11:"mobile-unit";s:2:"px";s:11:"tablet-unit";s:2:"px";s:12:"desktop-unit";s:2:"px";}s:18:"neve_global_colors";a:2:{s:13:"activePalette";s:5:"naacp";s:8:"palettes";a:3:{s:4:"base";a:3:{s:4:"name";s:4:"Base";s:13:"allowDeletion";b:0;s:6:"colors";a:9:{s:17:"nv-primary-accent";s:7:"#0366d6";s:19:"nv-secondary-accent";s:7:"#0e509a";s:10:"nv-site-bg";s:7:"#ffffff";s:11:"nv-light-bg";s:7:"#ededed";s:10:"nv-dark-bg";s:7:"#14171c";s:13:"nv-text-color";s:7:"#393939";s:15:"nv-text-dark-bg";s:7:"#ffffff";s:6:"nv-c-1";s:7:"#77b978";s:6:"nv-c-2";s:7:"#f37262";}}s:8:"darkMode";a:3:{s:4:"name";s:9:"Dark Mode";s:13:"allowDeletion";b:0;s:6:"colors";a:9:{s:17:"nv-primary-accent";s:7:"#26bcdb";s:19:"nv-secondary-accent";s:7:"#1f90a6";s:10:"nv-site-bg";s:7:"#121212";s:11:"nv-light-bg";s:7:"#1a1a1a";s:10:"nv-dark-bg";s:7:"#1a1a1a";s:13:"nv-text-color";s:7:"#ffffff";s:15:"nv-text-dark-bg";s:22:"rgba(255,255,255,0.81)";s:6:"nv-c-1";s:7:"#77b978";s:6:"nv-c-2";s:7:"#f37262";}}s:5:"naacp";a:3:{s:4:"name";s:5:"NAACP";s:13:"allowDeletion";b:1;s:6:"colors";a:9:{s:17:"nv-primary-accent";s:7:"#4fbbea";s:19:"nv-secondary-accent";s:7:"#01437d";s:10:"nv-site-bg";s:7:"#ffffff";s:11:"nv-light-bg";s:7:"#ededed";s:10:"nv-dark-bg";s:7:"#013152";s:13:"nv-text-color";s:7:"#4e4e4e";s:15:"nv-text-dark-bg";s:7:"#ffffff";s:6:"nv-c-1";s:7:"#ffc82f";s:6:"nv-c-2";s:7:"#6e6e6e";}}}}s:22:"neve_button_appearance";a:7:{s:12:"borderRadius";a:4:{s:3:"top";s:1:"0";s:5:"right";s:1:"0";s:6:"bottom";s:1:"0";s:4:"left";s:1:"0";}s:11:"borderWidth";a:4:{s:3:"top";i:1;s:5:"right";i:1;s:6:"bottom";i:1;s:4:"left";i:1;}s:4:"type";s:4:"fill";s:10:"background";s:24:"var(--nv-primary-accent)";s:15:"backgroundHover";s:24:"var(--nv-primary-accent)";s:4:"text";s:17:"var(--nv-dark-bg)";s:9:"textHover";s:17:"var(--nv-dark-bg)";}s:20:"neve_button_typeface";a:5:{s:13:"textTransform";s:4:"none";s:4:"flag";b:0;s:10:"lineHeight";a:4:{s:6:"suffix";a:3:{s:6:"mobile";s:2:"em";s:6:"tablet";s:2:"em";s:7:"desktop";s:2:"px";}s:6:"mobile";s:0:"";s:6:"tablet";s:0:"";s:7:"desktop";i:0;}s:8:"fontSize";a:4:{s:6:"suffix";a:3:{s:6:"mobile";s:2:"px";s:6:"tablet";s:2:"px";s:7:"desktop";s:2:"px";}s:6:"mobile";s:0:"";s:6:"tablet";s:0:"";s:7:"desktop";s:2:"16";}s:10:"fontWeight";s:3:"700";}s:19:"neve_button_padding";a:6:{s:6:"mobile";a:4:{s:3:"top";i:8;s:5:"right";i:12;s:6:"bottom";i:8;s:4:"left";i:12;}s:6:"tablet";a:4:{s:3:"top";i:8;s:5:"right";i:12;s:6:"bottom";i:8;s:4:"left";i:12;}s:7:"desktop";a:4:{s:3:"top";s:2:"16";s:5:"right";s:2:"32";s:6:"bottom";s:2:"16";s:4:"left";s:2:"32";}s:11:"mobile-unit";s:2:"px";s:11:"tablet-unit";s:2:"px";s:12:"desktop-unit";s:2:"px";}s:32:"neve_secondary_button_appearance";a:7:{s:12:"borderRadius";a:4:{s:3:"top";s:1:"0";s:5:"right";s:1:"0";s:6:"bottom";s:1:"0";s:4:"left";s:1:"0";}s:11:"borderWidth";a:4:{s:3:"top";i:1;s:5:"right";i:1;s:6:"bottom";i:1;s:4:"left";i:1;}s:4:"type";s:4:"fill";s:10:"background";s:13:"var(--nv-c-1)";s:15:"backgroundHover";s:13:"var(--nv-c-1)";s:4:"text";s:17:"var(--nv-dark-bg)";s:9:"textHover";s:17:"var(--nv-dark-bg)";}s:21:"neve_body_font_family";s:14:"Georgia, serif";s:21:"neve_typeface_general";a:6:{s:8:"fontSize";a:4:{s:6:"suffix";a:3:{s:6:"mobile";s:2:"px";s:6:"tablet";s:2:"px";s:7:"desktop";s:2:"px";}s:6:"mobile";i:15;s:6:"tablet";i:16;s:7:"desktop";s:2:"18";}s:10:"lineHeight";a:4:{s:6:"mobile";d:1.6;s:6:"tablet";d:1.6;s:7:"desktop";d:1.6;s:6:"suffix";a:3:{s:6:"mobile";s:2:"em";s:6:"tablet";s:2:"em";s:7:"desktop";s:2:"em";}}s:13:"letterSpacing";a:3:{s:6:"mobile";i:0;s:6:"tablet";i:0;s:7:"desktop";i:0;}s:10:"fontWeight";s:3:"400";s:13:"textTransform";s:4:"none";s:4:"flag";b:0;}s:25:"neve_fallback_font_family";s:29:"Times New Roman, Times, serif";s:25:"neve_headings_font_family";s:12:"Josefin Sans";s:34:"primary-menu_component_font_family";s:12:"Josefin Sans";s:32:"header_search_field_border_width";a:6:{s:6:"mobile";a:4:{s:3:"top";i:1;s:5:"right";i:1;s:6:"bottom";i:1;s:4:"left";i:1;}s:6:"tablet";a:4:{s:3:"top";i:1;s:5:"right";i:1;s:6:"bottom";i:1;s:4:"left";i:1;}s:7:"desktop";a:4:{s:3:"top";s:1:"0";s:5:"right";s:1:"0";s:6:"bottom";s:1:"0";s:4:"left";s:1:"0";}s:11:"mobile-unit";s:2:"px";s:11:"tablet-unit";s:2:"px";s:12:"desktop-unit";s:2:"px";}s:30:"header_search_field_text_color";s:17:"var(--nv-site-bg)";s:18:"primary-menu_color";s:17:"var(--nv-site-bg)";s:25:"primary-menu_active_color";s:13:"var(--nv-c-1)";s:24:"primary-menu_hover_color";s:17:"var(--nv-site-bg)";s:33:"hfg_header_layout_main_background";a:8:{s:4:"type";s:5:"color";s:8:"imageUrl";s:0:"";s:10:"focusPoint";a:2:{s:1:"x";d:0.5;s:1:"y";d:0.5;}s:10:"colorValue";s:26:"var(--nv-secondary-accent)";s:17:"overlayColorValue";s:0:"";s:14:"overlayOpacity";i:50;s:5:"fixed";b:0;s:11:"useFeatured";b:0;}s:31:"primary-menu_component_typeface";a:5:{s:8:"fontSize";a:4:{s:6:"suffix";a:3:{s:6:"mobile";s:2:"em";s:6:"tablet";s:2:"em";s:7:"desktop";s:2:"px";}s:6:"mobile";i:1;s:6:"tablet";i:1;s:7:"desktop";s:2:"16";}s:10:"lineHeight";a:4:{s:6:"mobile";d:1.6;s:6:"tablet";d:1.6;s:7:"desktop";d:1.6;s:6:"suffix";a:3:{s:6:"mobile";s:2:"em";s:6:"tablet";s:2:"em";s:7:"desktop";s:2:"em";}}s:13:"letterSpacing";a:3:{s:6:"mobile";i:0;s:6:"tablet";i:0;s:7:"desktop";i:0;}s:10:"fontWeight";s:3:"700";s:13:"textTransform";s:4:"none";}s:20:"primary-menu_spacing";s:38:"{"mobile":20,"tablet":20,"desktop":48}";s:37:"hfg_header_layout_main_new_text_color";s:17:"var(--nv-site-bg)";s:14:"logo_max_width";s:41:"{"mobile":120,"tablet":150,"desktop":220}";s:22:"logo_component_padding";a:6:{s:6:"mobile";a:4:{s:3:"top";s:2:"10";s:5:"right";i:0;s:6:"bottom";i:10;s:4:"left";i:0;}s:6:"tablet";a:4:{s:3:"top";i:10;s:5:"right";i:0;s:6:"bottom";i:10;s:4:"left";i:0;}s:7:"desktop";a:4:{s:3:"top";s:1:"0";s:5:"right";i:0;s:6:"bottom";i:10;s:4:"left";i:0;}s:11:"mobile-unit";s:2:"px";s:11:"tablet-unit";s:2:"px";s:12:"desktop-unit";s:2:"px";}s:29:"hfg_header_layout_main_height";s:37:"{"mobile":0,"tablet":0,"desktop":184}";s:29:"button_base_component_padding";a:6:{s:6:"mobile";a:4:{s:3:"top";i:8;s:5:"right";i:12;s:6:"bottom";i:8;s:4:"left";i:12;}s:6:"tablet";a:4:{s:3:"top";i:8;s:5:"right";i:12;s:6:"bottom";i:8;s:4:"left";i:12;}s:7:"desktop";a:4:{s:3:"top";s:2:"16";s:5:"right";s:2:"16";s:6:"bottom";s:2:"16";s:4:"left";s:2:"16";}s:11:"mobile-unit";s:2:"px";s:11:"tablet-unit";s:2:"px";s:12:"desktop-unit";s:2:"px";}s:28:"button_base_component_margin";a:6:{s:6:"mobile";a:4:{s:3:"top";i:0;s:5:"right";i:0;s:6:"bottom";i:0;s:4:"left";i:0;}s:6:"tablet";a:4:{s:3:"top";i:0;s:5:"right";i:0;s:6:"bottom";i:0;s:4:"left";i:0;}s:7:"desktop";a:4:{s:3:"top";i:0;s:5:"right";i:0;s:6:"bottom";i:0;s:4:"left";s:2:"25";}s:11:"mobile-unit";s:2:"px";s:11:"tablet-unit";s:2:"px";s:12:"desktop-unit";s:2:"px";}s:30:"neve_secondary_button_typeface";a:4:{s:10:"fontWeight";s:3:"700";s:4:"flag";b:0;s:10:"lineHeight";a:4:{s:6:"suffix";a:3:{s:6:"mobile";s:2:"em";s:6:"tablet";s:2:"em";s:7:"desktop";s:2:"px";}s:6:"mobile";d:1.6;s:6:"tablet";d:1.6;s:7:"desktop";i:0;}s:13:"textTransform";s:4:"none";}s:29:"neve_secondary_button_padding";a:6:{s:6:"mobile";a:4:{s:3:"top";i:8;s:5:"right";i:12;s:6:"bottom";i:8;s:4:"left";i:12;}s:6:"tablet";a:4:{s:3:"top";i:8;s:5:"right";i:12;s:6:"bottom";i:8;s:4:"left";i:12;}s:7:"desktop";a:4:{s:3:"top";s:2:"16";s:5:"right";s:2:"32";s:6:"bottom";s:2:"16";s:4:"left";s:2:"32";}s:11:"mobile-unit";s:2:"px";s:11:"tablet-unit";s:2:"px";s:12:"desktop-unit";s:2:"px";}}s:7:"options";a:2:{s:9:"site_icon";s:1:"0";s:23:"nav_menus_created_posts";a:0:{}}s:6:"wp_css";s:1814:".wp-block-button, .button {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.nav-menu-primary .sub-menu {
+	background-color: white !important;
+}
+
+.wp-block-cover {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+.wp-block-cover__inner-container {
+	margin: 0 auto !important;
+	width: 100% !important;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+@media (min-width: 576px) {
+	.wp-block-cover__inner-container {
+    max-width: 992px;
+	}
+}
+
+@media (min-width: 960px) {
+	.wp-block-cover__inner-container {
+		max-width: 1312px;
+	}
+}
+
+
+/* Buttons */
+
+.btn, .button, .wp-block-button a, button, input[type=button], input[type=submit] {
+	border-radius: 0;
+	border: none;
+	border-width: 0;
+	font-weight: 700;
+	text-transform: none;
+	padding: 8px 12px 8px 12px;
+	line-height: 1.6 !important;
+	font-size: 16px !important;
+}
+
+@media (min-width: 960px) {
+	.btn, .button, .wp-block-button a, button, input[type=button], input[type=submit] {
+		padding: 16px 32px 16px 32px;
+	}
+}
+
+.wp-block-button.is-style-default .wp-block-button__link {
+	background-color: var(--nv-secondary-accent);
+    color: var(--nv-site-bg);
+}
+
+.wp-block-button.is-style-link .wp-block-button__link {
+	background-color: transparent;
+	color: var(--nv-dark-bg);
+	display: flex;
+	align-items: center;
+	border-bottom: 2px solid var(--nv-dark-bg);
+    padding: .15rem 0;
+}
+
+.wp-block-button.is-style-link .wp-block-button__link:hover {
+  color: var(--nv-secondary-accent);
+	border-bottom: 2px solid var(--nv-c-1);
+}
+
+
+.wp-block-button.is-style-link .wp-block-button__link:after {
+	content: '→';
+	opacity: 0;
+	width: 0;
+	display: block;
+	line-height: 0;
+	font-size: 1.25rem;
+	transition: all .2s ease;
+}
+
+.wp-block-button.is-style-link .wp-block-button__link:hover:after {
+	content: '→';
+	opacity: 1;
+	width: auto;
+	margin-left: 5px;
+	transition: all .2s ease;
+}";}
