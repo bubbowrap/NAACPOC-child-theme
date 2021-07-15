@@ -14,16 +14,41 @@ Tags: blog, custom-logo, e-commerce, rtl-language-support, post-formats, grid-la
 
 /* MENU */
 
-.nav-menu-primary .sub-menu {
+.nav-ul > li > .sub-menu {
 	background-color: white !important;
+    right: 0;
+    border-radius: 0.25rem;
+}
+
+.nav-ul .sub-menu li {
+    min-width: 350px;
+}
+
+.nav-ul > li > .sub-menu > li > a {
+    color: black;
+}
+
+
+.nav-ul > .menu-item-has-children > .sub-menu:before { 
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: -0.75rem;
+    border-left: 0.75rem solid transparent;
+    border-right: 0.75rem solid transparent;
+    border-bottom: 0.75rem solid white;
 }
 
 header .component-wrap {
     display: block;
 }
 
-.button .button-primary {
-	font-family: 'Josefin Sans', sans-serif !important;
+.button.button-primary {
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 /* COVER */
@@ -61,10 +86,11 @@ header .component-wrap {
 	border-width: 0;
 	font-weight: 700;
 	text-transform: none;
-	padding: 8px 12px;
+	padding: 12px 24px;
 	line-height: 1.6 !important;
 	font-size: 16px !important;
 	font-family: 'Josefin Sans', sans-serif;
+    position: relative;
 }
 
 @media (min-width: 960px) {
