@@ -1,9 +1,4 @@
 wp.domReady( () => {
-	wp.blocks.unregisterBlockStyle(
-		'core/button',
-		[ 'default', 'primary', 'secondary', 'fill' ]
-	);
-
 	wp.blocks.registerBlockStyle(
 		'core/button',
 		[
@@ -18,4 +13,19 @@ wp.domReady( () => {
 			}
 		]
 	);
+
+	wp.blocks.registerBlockStyle(
+		'core/quote',
+		[
+			{
+				name: 'important',
+				label: 'Important',
+			},
+			{
+				name: 'important--secondary',
+				label: 'Important Secondary',
+			}
+		]
+	);
+	wp.blocks.unregisterBlockStyle('core/quote', 'large');
 } );
