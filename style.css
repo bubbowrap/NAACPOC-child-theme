@@ -12,36 +12,111 @@ Text Domain:    neve
 Tags: blog, custom-logo, e-commerce, rtl-language-support, post-formats, grid-layout, one-column, two-columns, custom-background, custom-colors, custom-header, custom-menu, featured-image-header, featured-images, flexible-header, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, accessibility-ready, wide-blocks, block-styles
 */
 
+/* TYPOGRAPHY */
+h1, h2, h3, h4, h5, h6 {
+	color: var(--nv-dark-bg);
+	line-height: 125%;
+	font-weight: 700;
+}
+
+h1:last-child {
+	margin-bottom: 0;
+}
+
+.is-style-jumbo {
+	font-size: 60px;
+}
+
+@media (max-width: 577px) {
+	.is-style-jumbo {
+		font-size: 36px;
+	}
+}
+
+.is-style-alternate {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-weight: 400;
+	font-style: italic;
+}
+
+h2:before {
+	content: '';
+	display: block;
+	background: var(--nv-c-1);
+	height: 4px;
+	width: 75px;
+	margin-top: 16px;
+	margin-bottom: 16px;
+}
+
+h2.has-text-align-center:before {
+	margin-left: auto;
+	margin-right: auto;
+}
+
 /* MENU */
-
-.nav-ul > li > .sub-menu {
-	background-color: white !important;
-    right: 0;
-    border-radius: 0.25rem;
+.builder-item--primary-menu .nav-menu-primary > .nav-ul li:not(.woocommerce-mini-cart-item) > a, .builder-item--primary-menu .nav-menu-primary > .nav-ul .has-caret > a, .builder-item--primary-menu .nav-menu-primary > .nav-ul .neve-mm-heading span, .builder-item--primary-menu .nav-menu-primary > .nav-ul .has-caret {
+	text-decoration: none;
 }
 
-.nav-ul .sub-menu li {
-    min-width: 350px;
+.nav-ul .sub-menu {
+    box-shadow: 0 0 25px rgba(0, 0, 0, .1);
 }
 
-.nav-ul > li > .sub-menu > li > a {
-    color: black;
+.nav-ul li {
+	padding: 20px 0;
 }
 
+@media (min-width: 960px) {
+	.header-main .nav-ul > .menu-item-has-children > .sub-menu {
+		background-color: white !important;
+		right: 50%;
+		margin-right: -175px;
+		border-radius: 0.25rem;
+	}
 
-.nav-ul > .menu-item-has-children > .sub-menu:before { 
-    content: '';
-    position: absolute;
-    width: 0;
-    height: 0;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    top: -0.75rem;
-    border-left: 0.75rem solid transparent;
-    border-right: 0.75rem solid transparent;
-    border-bottom: 0.75rem solid white;
+	.header-main .nav-ul .sub-menu li {
+		min-width: 350px;
+	}
+
+	.header-main .nav-ul > li > .sub-menu > li > a,
+	.header-main .nav-ul .sub-menu li .has-caret,
+	.header-main .nav-ul .sub-menu li > a {
+		color: var(--nv-dark-bg) !important;
+		font-size: 18px;
+		padding: 20px 0;
+		margin: 0 20px;
+		justify-content: flex-start;
+		border-bottom: 1px solid rgba(0, 0, 0, .1);
+	}
+
+	.header-main .nav-ul .sub-menu li:last-child > a {
+		border-bottom: none;
+	}
+
+	.header-main .nav-ul > li > .sub-menu > li > a:hover,
+	.header-main .nav-ul .sub-menu li > a:hover {
+		color: var(--nv-secondary-accent) !important;
+	}
+	
+	.header-main .nav-ul > .menu-item-has-children > .sub-menu:before { 
+		content: '';
+		position: absolute;
+		width: 0;
+		height: 0;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+		top: -0.75rem;
+		border-left: 0.75rem solid transparent;
+		border-right: 0.75rem solid transparent;
+		border-bottom: 0.75rem solid white;
+	}
 }
+
+/* .hfg_header .header-menu-sidebar .header-menu-sidebar-bg {
+	background-color: var(--nv-dark-bg) !important;
+} */
 
 header .component-wrap {
     display: block;
@@ -51,14 +126,64 @@ header .component-wrap {
 	font-family: 'Josefin Sans', sans-serif;
 }
 
-/* COVER */
+/* MOBILE MENU */
 
-.wp-block-cover {
-	padding-top: 2rem;
-	padding-bottom: 2rem;
+.header-menu-sidebar-inner .mobile-left .nav-ul .has-caret, .header-menu-sidebar-inner .mobile-left .nav-ul li a {
+	justify-content: flex-start;
+	font-size: 18px;
+    padding: 10px;
 }
 
-.wp-block-cover__inner-container {
+.header-menu-sidebar-inner .nav-menu-primary li {
+	/* width: auto; */
+}
+
+/* MOBILE BOTTOM BAR */
+
+.header-bottom-inner {
+	background-color: var(--nv-c-1) !important;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: bold;
+}
+.header-bottom-inner > .container {
+	padding: 0;
+}
+
+.header-bottom-inner .builder-item {
+	margin: 0;
+}
+
+#secondary-menu {
+	padding: 0;
+	display: block;
+}
+
+#secondary-menu	li { 
+	padding: 0;
+}
+
+.builder-item--secondary-menu .nav-ul#secondary-menu li > a {
+	color: var(--nv-dark-bg);
+	padding: 10px 0;
+	font-weight: 700;
+    display: flex;
+    width: 100%;
+	line-height: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+/* COVER */
+
+.wp-block-cover, 
+.wp-block-cover-image {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	min-height: 250px;
+}
+
+.wp-block-cover__inner-container,
+.wp-block-group__inner-container {
 	margin: 0 auto !important;
 	width: 100% !important;
 	padding-left: 15px;
@@ -66,17 +191,18 @@ header .component-wrap {
 }
 
 @media (min-width: 576px) {
-	.wp-block-cover__inner-container {
+	.wp-block-cover__inner-container,
+	.wp-block-group__inner-container {
     max-width: 992px;
 	}
 }
 
 @media (min-width: 960px) {
-	.wp-block-cover__inner-container {
+	.wp-block-cover__inner-container,
+	.wp-block-group__inner-container {
 		max-width: 1312px;
 	}
 }
-
 
 /* BUTTONS */
 
@@ -127,7 +253,7 @@ header .component-wrap {
 	display: block;
 	line-height: 0;
 	font-size: 1.25rem;
-	transition: all .2s ease;
+	transition: all .1s ease;
 }
 
 .wp-block-button.is-style-link .wp-block-button__link:hover:after {
@@ -135,7 +261,7 @@ header .component-wrap {
 	opacity: 1;
 	width: auto;
 	margin-left: 5px;
-	transition: all .2s ease;
+	transition: all .1s ease;
 }
 
 .wp-block-button.is-style-link--light .wp-block-button__link {
@@ -155,7 +281,7 @@ header .component-wrap {
 }
 
 .wp-block-quote p {
-	font-family: inherit;
+	font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1.75rem;
 	line-height: 1.25;
 	color: var(--nv-dark-bg);
@@ -242,3 +368,46 @@ header .component-wrap {
 		font-size: 1rem;
 	}
 }
+
+/* COLUMN OVERRIDES */
+
+@media (max-width: 599px) {
+	.wp-block-column {
+		margin: 10px 0;
+	}
+}
+/* ADDITIONAL CLASSES */
+@media (max-width: 577px) {
+	.mobile-center {
+		text-align: center;
+	}
+}
+
+/* QUERY POST OVERRIDE */
+.uagb-post__excerpt {
+	font-size: 16px;
+}
+
+.nv-comment-content a, .nv-content-wrap a:not(.button):not(.wp-block-file__button) {
+	text-decoration: none;
+}
+
+/* FOOTER */
+
+footer {
+	font-size: 14px;
+}
+
+footer .footer--row-inner a:hover {
+	color: var(--nv-c-1);
+}
+
+@media (max-width: 960px) {
+	.footer--row .builder-item {
+		width: auto;
+		max-width: 100%;
+		flex: 0 0 auto;
+		margin-left: 0;
+	}
+}
+

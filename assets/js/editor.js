@@ -1,5 +1,21 @@
 wp.domReady( () => {
 	wp.blocks.registerBlockStyle(
+		'core/heading',
+		[
+			{
+				name: 'jumbo',
+				label: 'Jumbo',
+				isDefault: false,
+			},
+			{
+				name: 'alternate',
+				label: 'Alternate font',
+				isDefault: false,
+			}
+		]
+	);
+
+	wp.blocks.registerBlockStyle(
 		'core/button',
 		[
 			{
@@ -10,6 +26,10 @@ wp.domReady( () => {
 			{
 				name: 'link',
 				label: 'Link',
+			},
+			{
+				name: 'link--light',
+				label: 'Link White',
 			}
 		]
 	);

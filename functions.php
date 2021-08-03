@@ -30,6 +30,13 @@ function be_gutenberg_components() {
 		null,
 		filemtime( get_stylesheet_directory() . '/style.css' )
 	);
+
+	wp_enqueue_style(
+		'be-editor-css-overrides',
+		get_stylesheet_directory_uri() . '/assets/css/editor.css',
+		null,
+		filemtime( get_stylesheet_directory() . '/assets/css/editor.css' )
+	);
 }
 
 add_action( 'enqueue_block_editor_assets', 'be_gutenberg_components' );
