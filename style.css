@@ -54,6 +54,19 @@ h2.has-text-align-center:before {
 	margin-right: auto;
 }
 
+/* PAGE HEADER */
+
+.nv-page-title-wrap.nv-big-title .nv-page-title {
+	border: none;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	text-align: center;
+}
+
+.page .nv-page-title-wrap {
+	margin: 0;
+}
+
 /* MENU */
 .builder-item--primary-menu .nav-menu-primary > .nav-ul li:not(.woocommerce-mini-cart-item) > a, .builder-item--primary-menu .nav-menu-primary > .nav-ul .has-caret > a, .builder-item--primary-menu .nav-menu-primary > .nav-ul .neve-mm-heading span, .builder-item--primary-menu .nav-menu-primary > .nav-ul .has-caret {
 	text-decoration: none;
@@ -411,3 +424,7 @@ footer .footer--row-inner a:hover {
 	}
 }
 
+/* EVENTS CALENDAR */
+#tribe-events-pg-template {
+	max-width: auto !important;
+}
